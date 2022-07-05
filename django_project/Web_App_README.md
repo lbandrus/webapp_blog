@@ -1,34 +1,25 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+I made a web app with the help from a few Youtube videos and the documentation from the django website. My web App is a blog style app that allows users to create an account and make posts to the websit for everyone to see. To start the server on your own machine open the command line and change your directory to the django_project folder under the Webapp_blog directory from there you will start the server by entering the command 'python manage.py runserver' (without the quotes). It will then show you where the server is running at the bottom of the terminal for example mine says 'Starting development server at http://127.0.0.1:8000/' you can also find the server at localhost:'enter the port number here' in my case it will be localhost:8000/ You can stop the server with CTRL + C.
 
-{Provide a description the web app that you wrote. Describe how to start a test server on your computer and what website to open up to see the first page of the app.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/NlyeG-9YXAY)
 
 # Web Pages
 
-{Describe each of the web pages you created and how the web app transitions between each of them.  Also describe what is dynamically created on each page.}
+I made a few pages one is a login screen, I made a post screen where you can post something new on the blog and a home screen where you can see all of the posts that others have posted.
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+I used django for the webframe for the website. 
+The Youtube I watched showed me crispy_forms which can be installed by running this command in your terminal 'pip install django-crispy-forms'
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Django documentation](https://www.djangoproject.com/)
+* [Corey Schafer - Blog Web App Series](https://www.youtube.com/watch?v=UmljXZIypDc&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
 * add forgot passwpord action to profile that will email the user.
 * Add a Profile editer to change password.
 * add the ability to add your own profile picture.
